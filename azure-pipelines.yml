@@ -53,6 +53,9 @@ steps:
 - script: C:\hostedtoolcache\windows\NuGet\4.1.0\x64\nuget.exe restore "Hello World\Hello World.sln"
   displayName: NUGET
 
+- script: msbuild.exe "Hello World\Hello World.sln"
+  displayName: MSBUILD steps
+
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
