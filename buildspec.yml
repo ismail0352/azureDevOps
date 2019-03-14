@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    SOLUTION: ".\Hello World\Hello World.sln"
+    SOLUTION: "Hello World\Hello World.sln"
     PACKAGE_DIRECTORY: .\packages
     DOTNET_FRAMEWORK: 4.6.2
 
