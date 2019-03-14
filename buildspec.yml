@@ -10,9 +10,9 @@ phases:
   install: 
     commands:
       - echo "Entered in Install Phase"
-      - choco install chocolatey
-      - choco install nuget.commandline
-      - choco install nugetpackagemanager
+      - choco install -y chocolatey
+      - choco install -y nuget.commandline
+      - choco install -y nugetpackagemanager
   build:
     commands:
       - echo "Entered in Build Phase"
