@@ -4,6 +4,7 @@
     {
         public string GetString()
         {
+            Console.WriteLine("Hello World!");
             return "Hello World";
         }
     }
