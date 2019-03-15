@@ -1,11 +1,16 @@
-﻿namespace Hello_World
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hello_World
 {
     public class Random
     {
-        public string GetString()
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            return "Hello World";
         }
     }
 }
