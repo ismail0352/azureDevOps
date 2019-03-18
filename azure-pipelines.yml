@@ -48,10 +48,10 @@ steps:
     verbosityPack: 'Detailed' # Options: quiet, normal, detailed
     arguments: # Required when command == Custom
 
-- script: C:\hostedtoolcache\windows\NuGet\4.1.0\x64\nuget.exe restore "Hello World\Hello World.sln"
+- script: C:\hostedtoolcache\windows\NuGet\4.1.0\x64\nuget.exe restore "HelloWorld\HelloWorld.sln"
   displayName: NUGET
 
-- script: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe "Hello World\Hello World.sln"
+- script: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe "HelloWorld\HelloWorld.sln"
   displayName: MSBUILD steps
 
 - script: |
