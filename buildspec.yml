@@ -20,4 +20,4 @@ phases:
 
 artifacts:
   files:
-    - ".\\HelloWorld\\bin\\Debug\\*"
+    - '".\HelloWorld\bin\Debug\*"'
